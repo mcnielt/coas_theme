@@ -1,0 +1,49 @@
+/* _footer-keep-bottom.css updated 2016-8-17 */
+
+	html, body {
+		height: 100%;
+		-webkit-overflow-scrolling: touch;
+	}
+	html body.admin-menu {
+		margin-top: 0 !important;
+	}
+	.page {
+		position: relative;
+		min-height: 100%;
+	}
+	#section-content {
+		border-bottom: 115px solid transparent; /* set up a height for the footer */
+		box-sizing: border-box;
+	}
+	#section-footer {
+		position: absolute;
+		bottom: 0;
+		height: 115px; /* set up a height for the footer */
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	
+@media screen and (max-width: 1220px) {
+	
+	#section-content {
+		border-bottom: 115px solid transparent; /* set up a height for the footer */
+	}
+	#section-footer {
+		height: 115px; /* set up a height for the footer */
+	}
+}
+
+@media screen and (max-width: 979px) {
+	
+	#section-content.section-content {
+		border-bottom: inherit;
+	}
+	#section-footer.section-footer {
+		position: inherit;
+		height: inherit;
+	}
+}
+
+@media screen and (max-width: 739px) {
+}

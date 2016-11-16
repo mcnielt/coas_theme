@@ -1,0 +1,10 @@
+/* css for ie */
+
+@media screen and (max-width: 740px) {
+	
+	#region-sidebar-first {
+		margin-left: -220px;
+    }
+	
+}
+

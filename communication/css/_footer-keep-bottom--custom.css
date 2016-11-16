@@ -1,0 +1,17 @@
+	#section-content {
+		border-bottom: 190px solid transparent; /* set up a height for the footer */
+	}
+	#section-footer {
+		height: 190px; /* set up a height for the footer */
+	}
+	
+	
+@media screen and (max-width: 1220px) {
+	
+	#section-content {
+		border-bottom: 190px solid transparent; /* set up a height for the footer */
+	}
+	#section-footer {
+		height: 190px; /* set up a height for the footer */
+	}
+}

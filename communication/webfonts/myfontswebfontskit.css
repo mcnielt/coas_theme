@@ -1,0 +1,76 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3071145, 2015-08-05T14:37:25-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: JansonURW-Reg by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-regular/
+ * 
+ * Webfont: JansonURW-Med by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-medium/
+ * 
+ * Webfont: JansonURW-BolIta by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-bold-italic/
+ * 
+ * Webfont: JansonURW-Lig by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-light/
+ * 
+ * Webfont: JansonURW-MedIta by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-medium-italic/
+ * 
+ * Webfont: JansonURWSC-Reg by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-sc-t-regular/
+ * 
+ * Webfont: JansonURW-Bol by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-bold/
+ * 
+ * Webfont: JansonURW-RegIta by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-italic/
+ * 
+ * Webfont: JansonURW-LigIta by URW++
+ * URL: http://www.myfonts.com/fonts/urw/janson/urw-t-light-italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3071145
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: (URW)++,Copyright 2006 by (URW)++ Design &amp; Development
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2edca9");
+
+  
+@font-face {font-family: 'JansonURW-Reg';src: url('webfonts/2EDCA9_0_0.eot');src: url('webfonts/2EDCA9_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_0_0.woff2') format('woff2'),url('webfonts/2EDCA9_0_0.woff') format('woff'),url('webfonts/2EDCA9_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURW-Med';src: url('webfonts/2EDCA9_1_0.eot');src: url('webfonts/2EDCA9_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_1_0.woff2') format('woff2'),url('webfonts/2EDCA9_1_0.woff') format('woff'),url('webfonts/2EDCA9_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURW-BolIta';src: url('webfonts/2EDCA9_2_0.eot');src: url('webfonts/2EDCA9_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_2_0.woff2') format('woff2'),url('webfonts/2EDCA9_2_0.woff') format('woff'),url('webfonts/2EDCA9_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURW-Lig';src: url('webfonts/2EDCA9_3_0.eot');src: url('webfonts/2EDCA9_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_3_0.woff2') format('woff2'),url('webfonts/2EDCA9_3_0.woff') format('woff'),url('webfonts/2EDCA9_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURW-MedIta';src: url('webfonts/2EDCA9_4_0.eot');src: url('webfonts/2EDCA9_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_4_0.woff2') format('woff2'),url('webfonts/2EDCA9_4_0.woff') format('woff'),url('webfonts/2EDCA9_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURWSC-Reg';src: url('webfonts/2EDCA9_5_0.eot');src: url('webfonts/2EDCA9_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_5_0.woff2') format('woff2'),url('webfonts/2EDCA9_5_0.woff') format('woff'),url('webfonts/2EDCA9_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURW-Bol';src: url('webfonts/2EDCA9_6_0.eot');src: url('webfonts/2EDCA9_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_6_0.woff2') format('woff2'),url('webfonts/2EDCA9_6_0.woff') format('woff'),url('webfonts/2EDCA9_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURW-RegIta';src: url('webfonts/2EDCA9_7_0.eot');src: url('webfonts/2EDCA9_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_7_0.woff2') format('woff2'),url('webfonts/2EDCA9_7_0.woff') format('woff'),url('webfonts/2EDCA9_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'JansonURW-LigIta';src: url('webfonts/2EDCA9_8_0.eot');src: url('webfonts/2EDCA9_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EDCA9_8_0.woff2') format('woff2'),url('webfonts/2EDCA9_8_0.woff') format('woff'),url('webfonts/2EDCA9_8_0.ttf') format('truetype');}
+ 

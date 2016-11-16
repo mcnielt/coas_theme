@@ -1,0 +1,140 @@
+/* MU masthead in dark background */
+
+/*---------Branding Region-------------*/
+	#section-header {
+	}
+	#zone-header-wrapper,
+	#zone-branding-wrapper {
+		position: relative;
+		background-color: #000;
+	    font-size: 13px;
+	}
+	#zone-header,
+	#zone-branding {
+		position: relative;
+		padding: 2.5em 0;
+	}
+	#region-branding  {
+		position: relative;
+		color: #fff;
+	}
+	#region-branding a {
+		color: #fff;
+	}
+	#region-branding a:hover {
+		color: #F1B82D;
+	}
+	#region-branding .logo-img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		width: 5.231em;
+		height: auto;
+	}
+	#region-branding .logo-img img {
+		max-width: 100%;
+		height: auto;
+	}
+	#region-branding .site-name-slogan {
+		display: block;
+		margin-left: 6.692em;
+	}
+	#region-branding .site-name {
+		font-family: 'JansonURW-Reg', "JansonStand", serif;
+		line-height: 1;
+		font-weight: normal;
+		font-size: 3.615em;
+		letter-spacing: 0;
+		margin: -0.021em 0 0;
+		padding: 0;
+	}
+	#region-branding .site-name a {
+		text-decoration: none;
+		line-height: 1;
+	}
+	#region-branding .site-slogan {
+		font-size: 1.96em;
+		font-family: 'JansonURW-Lig', "JansonStand", serif;
+		line-height: 1;
+		margin: 0.392em 0 0 0.039em;
+		padding: 0;
+		letter-spacing: 0.2px;
+	}
+	#region-branding .site-slogan a {
+		text-decoration:none;
+	}
+
+/*---------Mobile Menu Toggle----------*/
+.mobile-menu-toggle-container {
+	display: none;
+}
+
+
+@media screen and (max-width: 980px) {
+	
+/*---------Branding Region-------------*/
+	#zone-header-wrapper,
+	#zone-branding-wrapper {
+		font-size: 0.766em;
+		background-image: none;
+	}
+	.branding-data {
+		position: relative;
+	}
+	#region-branding .site-slogan {
+		letter-spacing: normal;
+	}	
+}
+
+
+@media screen and (max-width: 740px) {
+	
+/*---------Mobile Menu Toggle----------*/
+	.mobile-menu-toggle-container {
+		display: block;
+		position: absolute;
+		bottom: -36px;
+		left: 0;
+		z-index: 10;
+	}
+	.mobile-menu-toggle-container a {
+		display: block;
+		height: 24px;
+		width: 26px;
+		padding: 6px;
+		margin: 0 0 0 5px;
+		text-decoration: none;
+		color: #000;
+	}
+	.mobile-menu-toggle-container a div {
+		display: block;
+		width: 26px;
+		height: 4px;
+		margin: 2px 0 4px;
+		padding: 0;
+		background-color: #000;
+	}
+	
+/* Menu Zone */
+	#zone-menu-wrapper.zone-wrapper,
+	#zone-menu.zone {
+		margin: 0;
+		padding: 0;
+		height: 36px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+
+@media screen and (max-width: 580px) {
+	
+/*---------Branding Region-------------*/
+	#zone-header-wrapper,
+	#zone-branding-wrapper {
+		font-size: 0.511em;
+	}
+}

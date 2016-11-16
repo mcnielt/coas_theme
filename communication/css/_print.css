@@ -1,0 +1,135 @@
+.ds-3col-stacked-fluid {
+    width: 100% !important;
+}
+
+/* _print.css updated on 2016-7-19 */ 
+
+.zone-wrapper {
+	display: none;
+}
+
+#zone-branding-wrapper {
+	display: block;
+	padding: 0 !important;
+}
+.section-content .zone-wrapper {
+	display: block;
+}
+
+#region-sidebar-first {
+	display: none;
+}
+.tabs.primary {
+	display: none;
+}
+.block-menu {
+	display: none;
+}
+
+
+/* accrodion printing */
+#zone-content .region#region-content .region-inner .accordion {
+	margin-top: 2em;
+	margin-bottom: 1em;
+    padding-left: inherit;
+    padding-right: inherit;
+    background-color: inherit;
+    border: inherit;
+    border-radius: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion:first-child {
+    margin-top: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child ~ * {
+	display: inherit;
+	max-height: inherit;
+	margin-top: inherit;
+	margin-bottom: inherit;
+	padding-top: inherit;
+	padding-bottom: inherit;
+	opacity: inherit;
+	background-color: inherit;
+	overflow: inherit;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;		
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child {
+	max-height: inherit;
+	position: inherit;
+	margin-top: inherit;
+	margin-right: inherit;
+	margin-bottom: inherit;
+	margin-left: inherit;
+	padding: inherit;
+	width: inherit;
+    border-radius: inherit;
+	background-color: inherit;
+	cursor: inherit;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;		
+	font-size: 1.3em;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child:hover {
+	background-color: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child:before {
+	display: none;	
+}
+#zone-content .region#region-content .region-inner .accordion img {
+	max-width: 100%;
+	height: inherit;
+}
+
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive:before {
+	-ms-transform: inherit; /* IE 9 */
+    -webkit-transform: inherit; /* Chrome, Safari, Opera */
+    transform: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive,
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive:hover {
+	background-color: inherit;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive ~ * {
+	max-height: inherit;
+	opacity: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive ~ p {
+	margin: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive ~ p:first-child {
+	margin-top: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive ~ ol,
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive ~ ul {
+	margin: inherit;
+	padding: inherit;
+}
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive ~ ol li,
+#zone-content .region#region-content .region-inner .accordion > *:first-child.contentactive ~ ul li {
+}
+
+/* fix footer */
+
+	.section#section-content.section-content {
+		margin-bottom: inherit;
+	}
+	.section#section-footer.section-footer {
+		position: inherit;
+		height: inherit;
+	}
+	html, body {
+		height: auto !important;
+		overflow: inherit !important;
+	}
